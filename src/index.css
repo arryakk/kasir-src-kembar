@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-hide {
+    display: none !important;
+  }
+  .print-show, .print-show * {
+    visibility: visible;
+  }
+  .print-show {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 58mm; /* Standard thermal printer width */
+    margin: 0;
+    padding: 0;
+    display: block !important;
+  }
+  @page {
+    margin: 0;
+  }
+}
+
+.print-show {
+  display: none;
+}
