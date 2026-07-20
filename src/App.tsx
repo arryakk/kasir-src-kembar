@@ -194,7 +194,7 @@ export default function App() {
   const Footer = () => (
     <div className="mt-8 text-center">
       <div className="text-[10px] text-gray-400">
-        v1.5 develop by aryadpta<br/>
+        Support by Aryadipta TRPL Undiksha<br/>
         <a 
           href="https://wa.me/62895405373577" 
           target="_blank" 
